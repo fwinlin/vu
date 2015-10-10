@@ -1,0 +1,50 @@
+/********************************************
+USAGE:
+@include sprite-icon;
+@include use-sprite(authors-more-arrow-up, true);
+position: absolute;
+top: 0px;
+left: 0px;
+
+********************************************/
+/*
+* Retina Sprites for Compass
+* by:              Andreas Sahle
+* forked from:     Retina-Sprites-for-Compass by Gaya Kessler
+* @see: https://github.com/Gaya/Retina-Sprites-for-Compass
+* last update:     04/13/14
+*
+* Usage:
+* 1. create a folder in your image directory (in this case 'icons').
+* 2. create sprite images for pixel ratio 1 screens and put them in the folder.
+* 4. create sprite images for pixel ratio 2 screens and put them in the folder,
+*    use the same filenames with a '-2x' suffix.
+* 5. use the sprite-image in your Sass/Scss using: '@include use-sprite(<sprite-name>, true)'
+*/
+/*************************************************/
+/*
+  MIXIN TO SET BROWSER ATTRIBUTES FOR ALL BROWSERS
+*/
+/*************************************************/
+/*
+  RESPONSIVE MIXIN
+*/
+/*************************************************/
+/*
+  MIXIN FOR CSS3 ANIMATIONS
+
+
+USAGE:
+
+@include keyframes(slide-down) {
+  0% { opacity: 1; }
+  90% { opacity: 0; }
+}
+
+.element {
+  width: 100px;
+  height: 100px;
+  background: black;
+  @include animation('slide-down 5s 3');
+}
+*/
